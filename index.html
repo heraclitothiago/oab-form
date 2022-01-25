@@ -14,12 +14,12 @@
 
 <body>
     <div class="container min-vh-100">
-        <div class="row align-items-center">
-            <div class="col-md-6">
-                <img src="" alt="imagem" class="img-thumbnail border-0 mx-auto d-block" id="img">
-            </div>
-            <div class="col-md-6">
-                <form action="" method="POST">
+        <form action="" method="POST">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="" alt="imagem" class="img-thumbnail border-0 mx-auto d-block" id="img">
+                </div>
+                <div class="col-md-6">
                     <!-- DISABLE RECAPTCHA -->
                     <input type="hidden" name="_captcha" value="false" id="recaptchas">
                     <!-- RESPONSE FORM -->
@@ -54,10 +54,11 @@
                     <div class="mb-3">
                         <a href="" class="btn btn-danger" id="apagar">Apagar</a>
                         <a class="btn btn-success" id="enviar">Enviar</a>
+                        <button type="submit" class="btn btn-success" id="enviar">Enviar</button>
                     </div>
-                </form>
+                </div>
             </div>
-        </div>
+        </form>
     </div>
     <!-- JQUERY -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
