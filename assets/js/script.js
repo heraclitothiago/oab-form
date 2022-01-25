@@ -19,16 +19,6 @@ cleanBtn.addEventListener("click", e => {
     tipoContato.value = null
 })
 
-// const sendBtn = document.querySelector("#enviar")
-// sendBtn.addEventListener("click", e => {
-//     e.preventDefault()
-//     Swal.fire({
-//         icon: 'success',
-//         title: 'Obrigado...',
-//         text: 'Sua mensagem foi enviada com sucesso!',
-//     })
-// })
-
 //JQUERY
 $(function() {
 
