@@ -3,7 +3,7 @@ const vinculo = document.getElementById("vinculo")
 const tipoContato = document.getElementById("tipo")
 const texto = document.getElementById("texto")
 const form = document.querySelector("form")
-const email = "heraclitothiago@hotmail.com"
+const email = "thiaguinholetsgo@gmail.com"
 const formAction = "https://formsubmit.co/" + email
 const imgUrl = "https://github.com/heraclitothiago/oab-form/blob/main/assets/imgs/demonstration.png?raw=true"
 const img = document.getElementById("img")
@@ -20,33 +20,33 @@ cleanBtn.addEventListener("click", e => {
 })
 
 //JQUERY
-$(function() {
+// $(function() {
 
-    var adv = $("#nome_adv")
-    var text = $("#texto")
-    var vinculo = $("#vinculo")
-    var tipoContato = $("#tipo")
+//     var adv = $("#nome_adv")
+//     var text = $("#texto")
+//     var vinculo = $("#vinculo")
+//     var tipoContato = $("#tipo")
 
-    var enviar = $("#enviar")
-    enviar.on("click", e => {
-        e.preventDefault()
+//     var enviar = $("#enviar")
+//     enviar.on("click", e => {
+//         e.preventDefault()
 
-        $.ajax({
-            url: "https://formsubmit.co/e1bc1c07cffc8348890bd527d7e13d8a ",
-            method: "POST",
-            data: {
-                "nome": adv.val(),
-                "texto": text.val(),
-                "vinculo": vinculo.val(),
-                "tipoContato": tipoContato.val()
-            },
-            dataType: "json"
-        });
+//         $.ajax({
+//             url: "https://formsubmit.co/thiaguinholetsgo@gmail.com ",
+//             method: "POST",
+//             data: {
+//                 "nome": adv.val(),
+//                 "texto": text.val(),
+//                 "vinculo": vinculo.val(),
+//                 "tipoContato": tipoContato.val()
+//             },
+//             dataType: "json"
+//         });
 
-        Swal.fire({
-            icon: 'success',
-            title: 'Obrigado...',
-            text: 'Sua mensagem foi enviada com sucesso!',
-        })
-    })
-})
+//         Swal.fire({
+//             icon: 'success',
+//             title: 'Obrigado...',
+//             text: 'Sua mensagem foi enviada com sucesso!',
+//         })
+//     })
+// })
