@@ -21,7 +21,6 @@ cleanBtn.addEventListener("click", e => {
 
 //JQUERY
 // $(function() {
-
 //     var adv = $("#nome_adv")
 //     var text = $("#texto")
 //     var vinculo = $("#vinculo")
